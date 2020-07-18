@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>EDC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+ 
+  
+  
+  <link rel="stylesheet" type ="text/css" href="./css/swiper.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <!-- Demo styles -->
+  <style>
+    body {
+      background-image: linear-gradient(rgba(233, 225, 225, 0.8),rgba(233, 225, 225, 0.8)), url("./images/team12.jpg");
+      
+      background-size: cover;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: black;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      margin-top: 5rem;
+      justify-items: center;
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 340px;
+      margin-bottom: 10rem;
+      
+    }
+    .designation{
+      margin-top: 21.25rem;
+      text-align: center;
+      color: #FF1300;
+      font-family: cursive;
+    }
+    .status{
+      text-align: center;
+      color: #303030;
+      font-weight: bolder;
+      font-family: sans-serif;
+    }
+.navbar li a{
+	
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  color: #303030!important;
+  
+}
+.navbar{
+  position: relative;
+  
+}
+
+
+
+
+
+
+
+
+ 
+ .navbar li a:hover{
+	   color: #FF1300!important;
+ }
+
+ .navbar-toggler{
+	border: none;
+}
+
+.navbar-brand{
+	
+	padding: 8px 8px 8px 8px;
+	
+	font-size: 30px;
+	font-weight: bold;
+}
+.team{
+  padding-top: 1rem;
+  font-size: 5rem;
+  text-decoration: underline;
+  text-align: center;
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+}
+.special{
+
+ font-style: bold;
+}
+.special-cell{
+  background-color: turquoise;
+}
+  button{
+    text-align: center;
+    border: none;
+  background:  #FF1300;
+  padding: 5px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 100px;
+  cursor: pointer;
+  border-radius: 8px;
+  }
+  button:hover{
+    background: #FF1300;
+  }
+
+
+ 
+
+  </style>
+  
+  
+</head>
+<body>
+  <!--  NAVBAR EDITING -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+       <a class="navbar-brand" href="#">
+          <img src="./assets/logo.png" width="42" height="42" class="d-inline-block align-top" alt="">
+          </a>
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Initiatives</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Our Vision</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="form.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="team.html">Our Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  <!-- Swiper -->
+  <!--<div class="team">Our Team</div>-->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image:url(./images/abhishek.jpg)"><h3 class="designation">Abhishek Shukla</h3><h4 class="status">Faculty Advisor</h4>
+        <div class="icons"><button class= "btn-special"type="button"><a href="https://www.linkedin.com/in/abhishekshukla1/" style="color: black;">Contact</a></button></div>
+      </div>
+     
+      <div class="swiper-slide" style="background-image:url(./images/sandeep.jpg)"><h3 class="designation">Sandeep Srivastav</h3><h4 class="status">Faculty Advisor</h4>
+        <div class="icons"><button class= "btn-special"type="button style="font-size: 80px; text-align: center;"><a href="https://www.linkedin.com/in/sandeep-srivastava-01221123/" style="color: black;">Contact</a></button></div>
+      </div>
+      <div class="swiper-slide" style="background-image:url(./images/sid.jpg)"><h3 class="designation">Siddharth Gupta</h3><h4 class="status">Student Advisor</h4>
+        <div class="icons"><button class= "btn-special"type="button style="font-size: 80px; text-align: center;"><a href="https://www.linkedin.com/in/siddharth-gupta-74954a136/" style="color: black;">Contact</a></button></div>
+      </div>
+      <div class="swiper-slide" style="background-image:url(./images/harsh1.jpg)"><h3 class="designation">Harsh Kapoor</h3><h4 class="status">Head</h4>
+        <div class="icons"><button class= "btn-special"type="button style="font-size: 80px; text-align: center;"><a href="https://www.linkedin.com/in/harsh-kapoor-46a742169/" style="color: black;">Contact</a></button></div>
+      </div>
+      <div class="swiper-slide" style="background-image:url(./images/ayush.jpg)"><h3 class="designation">Ayush Jain</h3><h4 class="status">Marketing Head</h4>
+        <div class="icons"><button class= "btn-special"type="button style="font-size: 80px; text-align: center;"><a href="https://www.linkedin.com/in/ayush-jain-3910931a8/" style="color: black;">Contact</a></button></div>
+      </div>
+      <div class="swiper-slide" style="background-image:url(./images/etti.jpg)"><h3 class="designation">Etti Mittal</h3><h4 class="status">Public Relation</h4>
+        <div class="icons"><button class= "btn-special"type="button style="font-size: 80px; text-align: center;"><a href="#" style="color: black;">Contact</a></button></div>
+      </div>
+      <div class="swiper-slide" style="background-image:url(./images/shashank.png)"><h3 class="designation">Sashank Shrivastav</h3><h4 class="status">Desigining Head</h4>
+        <div class="icons"><button class= "btn-special"type="button style="font-size: 80px; text-align: center;"><a href="https://www.linkedin.com/in/shashank-srivastava-a2a010185/" style="color: black;">Contact</a></button></div>
+      </div>
+      <div class="swiper-slide" style="background-image:url(./images/shubh.jpg)"><h3 class="designation">Shubh Mehotra</h3><h4 class="status">Content Head</h4>
+        <div class="icons"><button class= "btn-special"type="button style="font-size: 80px; text-align: center;"><a href="https://www.linkedin.com/in/shubh-mehrotra-566212166/" style="color: black;">Contact</a></button></div>
+      </div>
+      <div class="swiper-slide" style="background-image:url(./images/shaurya.jpg)"><h3 class="designation">Shaurya Singh</h3><h4 class="status">Hospitality Head</h4>
+        <div class="icons"><button class= "btn-special"type="button style="font-size: 80px; text-align: center;"><a href="https://www.linkedin.com/in/shaurya-singh-571139185/" style="color: black;">Contact</a></button></div>
+      </div>
+      <div class="swiper-slide" style="background-image:url(./images/shrey.jpg)"><h3 class="designation">Shrey Nigam</h3><h4 class="status">Management Head</h4>
+        <div class="icons"><button class= "btn-special"type="button style="font-size: 80px; text-align: center;"><a href="https://www.linkedin.com/in/shrey-nigam-710b3983/" style="color: black;">Contact</a></button></div>
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="./swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 360,
+        stretch: -100,
+        depth: 500,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+</body>
+</html>

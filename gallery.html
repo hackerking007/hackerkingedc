@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/swiper.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="../edc/css/page.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  
+  
+  
+  
+  <!-- Demo styles -->
+  <style>
+    html, body {
+      position: relative;
+      height: 100%;
+
+    }
+    body {
+      background: linear-gradient(rgba(233, 225, 225, 0.8), rgba(233, 225, 225, 0.8));
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+      background-size: cover;
+    }
+    .swiper-container {
+      margin-top: 5rem;
+      width: 100%;
+      height: 100%;
+   
+    }
+    .swiper-wrapper{
+      
+    }
+   
+   
+   
+    .swiper-slide {
+     
+      text-align: center;
+      font-size: 18px;
+     
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .navbar li a{
+  color: #303030!important;
+  font-weight: bolder;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .navbar li a:hover{
+	   color: #FF1300!important;
+ }
+
+  .mynavbar{
+	  position: relative;
+  }
+  .navbar-item{
+	float: right;
+  }
+  .navbar-toggler{
+	border: none;
+}
+  .navbar-toggler:hover{
+  background: #FF1300;
+}
+    .navbar-brand{
+	  padding: 8px 8px 8px 8px;
+	  color: #333399;
+	  font-size: 15px;
+    font-weight: bold;
+    }
+    </style>
+  </head>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+           <a class="navbar-brand" href="#">
+              <img src="./assets/logo.png" width="42" height="42" class="d-inline-block align-top" alt="">
+            </a>
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Initiatives</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Our Vision</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="form.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="team.html">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+   
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="./images/WhatsApp Image 2020-05-22 at 5.55.11 PM (1).jpeg"></div>
+      <div class="swiper-slide"><img src="./images/WhatsApp Image 2020-05-22 at 5.55.11 PM.jpeg"></div>
+      <div class="swiper-slide"><img src="./images/WhatsApp Image 2020-05-22 at 5.55.12 PM (1).jpeg"></div>
+      <div class="swiper-slide"><img src="./images/WhatsApp Image 2020-05-22 at 5.55.12 PM (2).jpeg"></div>
+      <div class="swiper-slide"><img src="./images/WhatsApp Image 2020-05-22 at 5.55.12 PM.jpeg"></div>
+      <div class="swiper-slide"><img src="./images/WhatsApp Image 2020-05-22 at 5.55.13 PM.jpeg"></div>  
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="./swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+    <script>
+     var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+      </script>
+  </body>
+
+</html>

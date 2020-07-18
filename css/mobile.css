@@ -1,0 +1,463 @@
+@media screen and (max-width:1024px) {
+
+    .wedo-img {
+        height: 15rem;
+        width: 20rem;
+        /* padding-top: 2rem; */
+        border: 0.25rem solid #a1eafb;
+        padding: 0.5rem;
+    }
+
+    .left-img {
+        margin-top: 4rem;
+
+    }
+
+    /* vision section */
+    .vision-card-inner {
+        margin: 1rem 1rem;
+    }
+
+    .headowl {
+        font-size: 3rem;
+        margin: 1.5rem 5rem;
+
+    }
+
+    .headowl-mission {
+        font-size: 3rem;
+        margin: 1.5rem 5rem;
+    }
+
+
+
+    .upsider {
+
+        height: 18rem;
+        margin: 0.9rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    /* global */
+    /* section */
+    .section-title {
+        padding: 0.5rem 0.5rem;
+
+    }
+
+    .section-title-left {
+        margin-left: 8rem;
+    }
+
+    .section-title_name {
+        font-size: 2rem;
+        text-transform: capitalize;
+        color: #303030;
+    }
+
+
+    .section-title_underline {
+        background: #37FF00;
+        width: 5rem;
+        height: 0.15rem;
+
+
+
+    }
+
+    .section-title_text {
+        letter-spacing: 0.1rem;
+        line-height: 1;
+        margin-top: 1rem;
+        font-family: 'Slabo 27px', serif;
+        font-size: 1rem;
+
+        color: #0040FF;
+    }
+
+    .about_icon {
+        font-size: 8rem;
+        color: #FF1300;
+        margin: 2rem auto;
+    }
+
+    /* wedo section */
+    .wedo-content {
+        width: 90vw;
+        margin: 2rem auto;
+    }
+
+    .fascolor {
+        font-size: 1.5rem;
+
+    }
+
+    .wedo-title {
+        font-size: 1.1rem;
+        padding-top: 1.2rem;
+    }
+
+    .wedo-list {
+
+        font-size: 1rem;
+        padding-top: 0.2rem;
+        padding-left: 3rem;
+    }
+
+    .wedo-img {
+        height: 12rem;
+        width: 14rem;
+        padding-top: 2rem;
+        border: 0.15rem solid #a1eafb;
+        padding: 0.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .left-img {
+        margin-top: 4rem;
+
+    }
+
+    /* initiatives section */
+    .mainwork {
+        height: 18rem;
+    }
+
+    .inittext {
+        font-size: 1.8rem;
+    }
+
+    .overp {
+        font-size: 0.7rem;
+        box-shadow: 0.1rem 0.1rem white;
+
+    }
+
+    /* vision section */
+
+    .vision-card-inner {
+
+        margin: 1rem 1rem;
+    }
+
+    .headowl {
+        font-size: 3rem;
+        margin: 1.5rem 2rem;
+
+    }
+
+    .headowl-mission {
+        font-size: 3rem;
+        margin: 1.5rem 2rem;
+    }
+
+
+
+    .upsider {
+        height: 20rem;
+        margin: 0.95rem;
+
+    }
+
+    /* contact ----------------------------------------------------*/
+    .clg-map {
+        width: 70vw;
+        height: 65vh;
+        margin: 2rem 5rem;
+    }
+
+    .contact-info {
+        grid-template-columns: 2fr 2fr 1fr;
+
+    }
+
+    .social-icons {
+        margin-top: 4rem;
+        margin-right: 2rem;
+        font-size: 1rem;
+        grid-template-columns: 2rem 2rem 2rem 2rem;
+    }
+
+    .contact-item_icon {
+        font-size: 2.5rem;
+
+    }
+
+    .contact-item_title {
+        font-size: 0.8rem;
+    }
+
+    .contact-item_text {
+        font-size: 0.5rem;
+
+        margin-left: 0.5rem;
+    }
+   
+   
+   
+
+}
+
+
+
+@media screen and (max-width:425px) {
+    body {
+        background: linear-gradient(rgba(233, 225, 225, 0.8), rgba(233, 225, 225, 0.8)), url('../assets/texture.jpg');;
+    }
+
+    /* header */
+    .header {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assets/small-screen-bg.jpg');
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        /* opacity: 0.9; */
+
+    }
+
+    .banner {
+        width: 100%;
+        top: 0%;
+        margin-top: 2rem;
+    }
+
+    .banner_title {
+        font-size: 1.5rem;
+        margin-bottom: auto;
+        color: #28c7fa;
+
+    }
+
+
+    /* about */
+    .about-container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto 1fr;
+        grid-gap: 2rem;
+
+    }
+
+    .about_icon {
+        font-size: 5rem;
+        color: #FF1300;
+        margin: 1rem auto;
+    }
+
+    /* wedo section */
+    .wedo-content {
+
+        margin: 1rem 1rem;
+    }
+
+    .wedo-img {
+        height: 12rem;
+        width: 20rem;
+        /* padding-top: 2rem; */
+        border: 0.25rem solid #a1eafb;
+        padding: 0.5rem;
+    }
+
+    .left-img {
+        margin-top: 2rem;
+
+    }
+
+    /* initiatives section */
+    .mainwork {
+
+
+        height: 25rem;
+        width: 85%;
+
+    }
+
+    .inittext {
+
+        font-size: 2rem;
+    }
+
+    .overp {
+
+        font-size: 1.1rem;
+        box-shadow: 0.25rem 0.25rem white;
+    }
+
+    /* vision section */
+    .vision-card {
+        width: 23rem;
+    }
+
+    .vision-card-inner {
+
+        margin: 1rem;
+        height: 25rem;
+        width: 19rem;
+    }
+
+    .headowl {
+        font-size: 3rem;
+        margin: 1.5rem 2rem;
+
+    }
+
+    .headowl-mission {
+        font-size: 3rem;
+        margin: 1.5rem 2rem;
+    }
+
+
+
+    .upsider {
+        height: 25rem;
+        margin: 1rem;
+
+    }
+
+    /* contact ----------------------------------------------------*/
+    .clg-map {
+        width: 70vw;
+        height: 60vh;
+        margin: 2rem 1rem;
+    }
+
+    .contact-info {
+        grid-template-rows: repeat(3, 1fr);
+
+    }
+
+    .social-icons {
+        margin-top: 4rem;
+        margin-right: 2rem;
+        font-size: 1rem;
+        grid-template-columns: 1rem 1rem 1rem 1rem;
+    }
+
+    .contact-item_icon {
+        font-size: 2.5rem;
+
+    }
+
+    .contact-item_title {
+        font-size: 0.5rem;
+    }
+    .contact-item {
+        margin: 0rem 1rem;
+    }
+
+    .contact-item_text {
+        font-size: 0.5rem;
+
+        margin-left: 0.5rem;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    .wedo-img {
+        height: 10rem;
+        width: 14rem;
+        /* padding-top: 2rem; */
+        border: 0.25rem solid #F31507;
+        padding: 0.2rem;
+    }
+
+    .left-img {
+        margin-top: 2rem;
+
+    }
+
+    /* initiatives section */
+    .overp {
+        box-shadow: 0.15rem 0.15rem white;
+        font-size: 0.9rem;
+    }
+
+    /* vision section */
+    .vision-card {
+        width: 20rem;
+    }
+
+    .vision-card-inner {
+
+
+        height: 25rem;
+        width: 16rem;
+    }
+
+    .headowl {
+        font-size: 2.5rem;
+        margin: 1.5rem 2rem;
+
+    }
+
+    .headowl-mission {
+        font-size: 2.5rem;
+        margin: 1.5rem 2rem;
+    }
+
+
+
+    .upsider {
+        height: 25rem;
+        margin: 1rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    body {
+        /* background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../assets/WhatsApp\ Image\ 2020-05-25\ at\ 8.45.27\ PM.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover; */
+    }
+
+    .about_icon-special {
+        order: 1;
+    }
+
+    .section-title_underline {
+        background: #37FF00;
+    }
+
+    /* contact ----------------------------------------------------*/
+    .clg-map {
+        width: 80vw;
+        height: 70vh;
+        margin: 2rem 4rem;
+    }
+
+    .contact-info {
+        grid-template-columns: 2fr 2fr 1fr;
+
+    }
+
+    .social-icons {
+        margin-top: 4rem;
+        margin-right: 10rem;
+        font-size: 1rem;
+        grid-template-columns: 2rem 2rem 2rem 2rem;
+    }
+
+    .contact-item_icon {
+        font-size: 3rem;
+
+    }
+
+    .contact-item_title {
+        font-size: 2rem;
+    }
+
+    .contact-item_text {
+        font-size: 1rem;
+
+        margin-left: 0.5rem;
+    }
+    
+    
+    
+
+
+}
