@@ -23,7 +23,7 @@ body {
 body {
 	height: 100%;
 	font-family: 'Lato', sans-serif;
-	background: linear-gradient(rgba(233, 225, 225, 0.7), rgba(233, 225, 225, 0.7)), url('../assets/texture.jpg');
+	/*background: linear-gradient(rgba(233, 225, 225, 0.7), rgba(233, 225, 225, 0.7)), url('../assets/texture.jpg');*/
 
 
 }
@@ -55,7 +55,7 @@ body {
 .section-title_name {
 	font-size: 3rem;
 	text-transform: capitalize;
-	color: #303030 ;
+	color: #302e4d ;
 }
 
 
@@ -72,7 +72,7 @@ body {
 	letter-spacing: 0.1rem;
 	line-height: 1.5;
 	margin-top: 1rem;
-	color: #0040FF ;
+	color: #504e70 ;
 	font-size: large;
 	font-weight: bolder;
 }
@@ -110,7 +110,7 @@ body {
 .banner_title {
 	font-size: 4rem;
 	text-transform: uppercase;
-	color:  #FF1300 ;
+	/*color:  #FF1300 ;*/
 	transition-property: all;
 
 }
@@ -328,7 +328,7 @@ body {
 
 .about_icon {
 	font-size: 10rem;
-	color: #FF1300;
+	/*color: #FF1300;
 	/* margin: 3rem auto; */
 	margin-top: 5rem;
 }
@@ -382,7 +382,7 @@ body {
 
 .fascolor {
 	font-size: 2.5rem;
-	color: #FF1300;
+	/*color: #FF1300;*/
 	padding: 0.45rem;
 }
 
@@ -514,11 +514,7 @@ body {
 
 }
 
-.vis-icon {
 
-
-	color: #1e2a78;
-}
 
 .headowl {
 	font-size: 4rem;
@@ -529,11 +525,13 @@ body {
 .headowl-mission {
 	font-size: 4rem;
 	margin: 1.5rem 5rem;
+	color: #302e4d;
 }
 
 .headpara {
 	padding: 1rem;
 	margin: 1rem;
+	color: #504e70;
 }
 
 .upsider {
@@ -602,7 +600,7 @@ body {
 
 .contact-item_icon {
 	font-size: 3rem;
-	color: #FF1300;
+	/*color: #FF1300;*/
 }
 
 .contact-item_title {
@@ -636,7 +634,7 @@ body {
 	/* grid-template-columns: repeat(5, 3rem); */
 	grid-row-gap: 0.5rem;
 	justify-content: center;
-	color: #FF1300;
+	/*color: #FF1300;*/
 	
 	/* display: block;
 	text-decoration: none;
