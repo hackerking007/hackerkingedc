@@ -59,7 +59,7 @@
 
 
     .section-title_underline {
-        background: #37FF00;
+        background: #2196f3;
         width: 5rem;
         height: 0.15rem;
 
@@ -419,10 +419,10 @@
     }
 
     .section-title_underline {
-        background: #37FF00;
+        background: #2196f3;
     }
 
-    /* contact ----------------------------------------------------*/
+    /* contact ----------------------------------------------*/
     .clg-map {
         width: 80vw;
         height: 70vh;
