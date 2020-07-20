@@ -74,7 +74,7 @@
         font-family: 'Slabo 27px', serif;
         font-size: 1rem;
 
-        color: #0040FF;
+        /*color: #0040FF;*/
     }
 
     .about_icon {
@@ -203,6 +203,10 @@
 
 
 @media screen and (max-width:425px) {
+    /*.wrapeer{
+        width: 20%!important;
+        height: 50%!important;
+    }*/
     body {
         background: linear-gradient(rgba(233, 225, 225, 0.8), rgba(233, 225, 225, 0.8)), url('../assets/texture.jpg');;
     }
@@ -357,6 +361,10 @@
 }
 
 @media screen and (max-width:375px) {
+    .wrapper{
+        width:20%!important;
+        height: 50%;
+    }
     .wedo-img {
         height: 10rem;
         width: 14rem;
