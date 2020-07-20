@@ -1,5 +1,3 @@
-
-
 const links=document.querySelectorAll(".alternate-style");
 totalLinks=links.length;
 
@@ -34,5 +32,5 @@ const bodySkin=document.querySelectorAll(".body-skin"),
     }
 
 document.querySelector(".toggle-style-switcher").addEventListener("click",() => {
-    document.querySelector(".style-swither").classList.toggle("open")
+    document.querySelector(".style-switcher").classList.toggle("open");
 })

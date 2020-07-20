@@ -685,3 +685,13 @@ color: floralwhite;
 	  flex: 0 0 50%;
 	  max-width: 50%;
   }
+  .shadow-dark{
+	-webkit-box-shadow: 0 0 20px rgba(48,46,77,0.15);
+	box-shadow: 0 0 20px rgba(48,46,77,0.15);
+  }
+  body.dark .grid-container .grid-container-medium-2{
+	  background-color: #222222;
+  }
+  section.dark{
+	  background-color: #222222;
+  }
