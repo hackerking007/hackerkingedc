@@ -695,3 +695,7 @@ color: floralwhite;
   section.dark{
 	  background-color: #222222;
   }
+  /*body.dark .shadow-dark{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}

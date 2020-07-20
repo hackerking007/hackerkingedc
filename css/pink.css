@@ -14,5 +14,7 @@ button{
 .wrapper .form .inputfield .btn{
     background-color:#ec1839;
 }
-
+.section-title_underline {
+    background: #e31839;
+}
 
