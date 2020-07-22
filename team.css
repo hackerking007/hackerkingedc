@@ -16,8 +16,8 @@
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 300px!important;
-  height: 340px!important;
+  width: 250px!important;
+  height: 300px!important;
   margin-bottom: 10rem;
   border: 10px solid rgb(243, 239, 239);
   
@@ -63,13 +63,12 @@ background-color: turquoise;
 button{
 text-align: center;
 border: none;
-background:  #FF1300;
 padding: 5px 25px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
 font-size: 16px;
-margin-left: 0px;
+margin-left: 60px;
 cursor: pointer;
 border-radius: 8px;
 }
@@ -77,5 +76,5 @@ button:hover{
 background: #FF1300;
 }
 .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
-  bottom: 200px!important;
+  bottom: 300px!important;
 }

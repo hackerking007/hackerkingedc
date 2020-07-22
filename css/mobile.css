@@ -366,6 +366,9 @@
 }
 
 @media screen and (max-width:375px) {
+    
+    
+    
     .wrapper{
         width:20%!important;
         height: 50%;
@@ -473,4 +476,12 @@
     
 
 
+}
+
+
+@media screen and (max-width: 425px){
+    .wrapper{
+        width: 50%;
+        height: 50%;
+    }
 }

@@ -657,10 +657,12 @@ color: floralwhite;
 
 	margin: 0 auto;
 	display: grid;
-	grid-template-rows: 4rem 4rem 4rem 4rem;
+	grid-template-rows: 4rem 4rem 4rem;
 	/* grid-template-columns: repeat(5, 3rem); */
 	grid-column-gap: 0.5rem;
 	justify-content: center;
+	margin-right: 1050px;
+    margin-bottom: 20px;
 
 }
 .footer {
