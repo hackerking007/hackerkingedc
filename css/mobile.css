@@ -340,7 +340,7 @@
 
     .social-icons {
         margin-top: 4rem;
-        margin-right: 2rem;
+        margin-right: 5rem;
         font-size: 1rem;
         grid-template-columns: 1rem 1rem 1rem 1rem;
     }
@@ -360,7 +360,7 @@
     .contact-item_text {
         font-size: 0.5rem;
 
-        margin-left: 0.5rem;
+        margin-left: 0rem;
     }
 
 }
