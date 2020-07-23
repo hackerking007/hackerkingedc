@@ -72,9 +72,9 @@ margin-left: 60px;
 cursor: pointer;
 border-radius: 8px;
 }
-button:hover{
-background: #FF1300;
-}
+
+
+
 .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
   bottom: 200px;
 }

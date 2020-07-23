@@ -7,8 +7,8 @@
 .section-title_underline,
 .icons,
 .footer,
-.wrapper .title,
-button{
+.wrapper .title
+{
     color: #FF2222 ;
 }
 .wrapper .form .inputfield .btn{
@@ -16,5 +16,11 @@ button{
 }
 .section-title_underline {
     background: #FF2222;
+}
+button:hover{
+    background-color: #FF2222;
+}
+.contact-item_title{
+    text-decoration: underline solid #FF2222;
 }
 

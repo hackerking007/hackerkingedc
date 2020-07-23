@@ -19,3 +19,9 @@ button{
 .section-title_underline {
     background: #fa5b07;
 }
+button:hover{
+    background-color: #fa5b07;
+}
+.contact-item_title{
+    text-decoration: underline solid #fa5b07;
+}

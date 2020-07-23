@@ -17,5 +17,11 @@ button{
 .section-title_underline {
     background: #ffb400;
 }
+button:hover{
+    background-color: #ffb400
+}
+.contact-item_title{
+    text-decoration: underline solid #ffb400
+}
 
 
