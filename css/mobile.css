@@ -97,6 +97,7 @@
     .wedo-title {
         font-size: 1.1rem;
         padding-top: 1.2rem;
+        padding-left: 1rem;
     }
 
     .wedo-list {
@@ -173,6 +174,7 @@
         grid-template-columns: 2fr 2fr 1fr;
 
     }
+    
 
     .social-icons {
         margin-top: 4rem;
@@ -208,10 +210,6 @@
 
 
 @media screen and (max-width:425px) {
-    /*.wrapeer{
-        width: 20%!important;
-        height: 50%!important;
-    }*/
     body {
         background: linear-gradient(rgba(233, 225, 225, 0.8), rgba(233, 225, 225, 0.8)), url('../assets/texture.jpg');;
     }
@@ -484,7 +482,14 @@
 
 @media screen and (max-width: 425px){
     .wrapper{
-        width: 50%;
-        height: 50%;
+        width: 25%;
+        height: 70%;
+    }
+}
+@media screen and (max-width: 320px)
+{
+    .wrapper{
+        width: 20%;
+        height: 70%;
     }
 }
