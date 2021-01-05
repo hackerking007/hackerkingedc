@@ -36,6 +36,12 @@
         height: 18rem;
         margin: 0.9rem;
     }
+    .wrapper{
+        max-width: 65% !important;
+    }
+    .contact-info{
+        grid-template-columns: 2fr 2fr 1fr;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -201,6 +207,9 @@
         height: 60%;
         width: 50%;
     }
+    .contact-info{
+        grid-template-columns: 2fr 2fr 1fr;
+    }
    
    
    
@@ -359,6 +368,9 @@
         font-size: 0.5rem;
 
         margin-left: 0rem;
+    }
+    .wrapper{
+        max-width: 25% !important;
     }
 
 }
